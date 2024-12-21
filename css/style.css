@@ -33,11 +33,12 @@ padding: auto;
 /* Navber section start */
 .container{
     width: 1280px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 #navber{
     background-color: #fff; 
     /* hexa code */
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,3 +107,72 @@ padding: auto;
     letter-spacing: 0%;
 }
 /* Navber section end */
+/* Hero About section start*/
+#hero_about{
+   
+}
+/* This is hero */
+#hero_about #hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#hero_about #hero .left_side{
+ width: 45%;
+}
+#hero_about #hero .left_side .hero_description{
+   padding-bottom: 140px;
+}
+#hero_about #hero .left_side .hero_description h1{
+    color: rgb(19, 34, 56);
+    font-family: Work Sans;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#hero_about #hero .left_side .hero_description p{
+
+}
+#hero_about #hero .left_side .hero_description button{
+
+}
+#hero_about #hero .left_side .statistics{
+
+}
+#hero_about #hero .left_side .statistics .statistics_item{
+
+}
+#hero_about #hero .left_side .statistics .statistics_item h3{
+
+}
+#hero_about #hero .left_side .statistics .statistics_item span{
+
+}
+#hero_about #hero .right_side{
+ width: 45%;
+}
+#hero_about #hero .right_side img{
+
+}
+/* This is hero */
+#hero_about #about{}
+#hero_about #about .left_side{}
+#hero_about #about .left_side img{}
+#hero_about #about .left_side .social_media{}
+#hero_about #about .left_side .social_media .social_icon{}
+
+#hero_about #about .right_side{}
+#hero_about #about .right_side h2{}
+#hero_about #about .right_side p{}
+#hero_about #about .right_side .action{}
+#hero_about #about .right_side .action .project_btn{}
+#hero_about #about .right_side .action .download_btn{}
+#hero_about #about .right_side .action .download_btn svg{}
+#hero_about #about .right_side .action .download_btn span{}
+/* Hero About section end*/
+
+
