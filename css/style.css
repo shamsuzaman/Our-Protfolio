@@ -345,5 +345,100 @@ text-align: left;
 #hero_about #about .right_side .action .download_btn span{
    }
 /* Hero About section end*/
+/* Work process section start */
+#work process{
+    padding: 248px 0px 140px 0px;
+    /* up right bottom left */
+    background: rgb(240, 241, 243);
+}
+.work process{}
+.work_process_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 143px;
+}
+.work_process_left_side{}
 
+.work_process_title{
+    color: rgb(19, 34, 56);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+}
+.work_process_description{
+    color: rgb(105, 116, 132);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.work_process_right_side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.work_process_right_item{
+    border-radius: 12px;
+box-shadow: 32px 32px 124px 0px rgba(43, 56, 76, 0.1);
+/* Gray/White */
+background: rgb(255, 255, 255);
+gap: 32px;
+padding: 32px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-bottom: 25px;
+}
+.work_process_right_item_first_column{
+margin-top: -25px;
+}
+.work_process_right_item_icon_container{
+    border-radius: 6px;
+
+/* Primary/500 */
+background: rgb(165, 61, 255);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 20px;
+
+}
+.work_process_right_item_icon_container svg{}
+.work_process_right_side_item_description{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+}
+.work_process_right_side_item_description_title{
+    color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.work_process_right_side_item_description_details{
+    /* Body/Regular/400 */
+color: rgb(85, 96, 112);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* Work process section end */
 
